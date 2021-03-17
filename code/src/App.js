@@ -1,12 +1,14 @@
 import React from 'react'
-import data from './data.json'
 
-console.log(data)
+import { PageTitle } from './components/PageTitle';
+import { AlbumList } from './components/AlbumList';
 
 export const App = () => {
-  return (
-    <div>
-      Find me in src/app.js!
-    </div>
-  )
+    return (
+        <div className="container">
+            <PageTitle />
+            <hr />
+            <AlbumList />
+        </div>
+    )
 }
