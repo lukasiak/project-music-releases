@@ -6,7 +6,7 @@ export const Artist = (props) => {
             {
                 props.artists.map((artist) => {
                     return (
-                        <a key={artist.id} className="artist" href="#">
+                        <a key={artist.id} className="artist" href={artist.href}>
                             {artist.name}
                         </a>
                     )

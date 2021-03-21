@@ -13,8 +13,7 @@ export const AlbumList = () => {
                     <Album 
                         key={album.id} 
                         name={album.name} 
-                        artistURL={album.artists[0].external_urls.spotify} 
-                        albumURL={album.external_urls.spotify} 
+                        link={album.external_urls.spotify} 
                         image={album.images[1].url} 
                         artists={album.artists} />
                 )
