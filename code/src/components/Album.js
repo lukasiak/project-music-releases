@@ -10,9 +10,9 @@ export const Album = (props) => {
                         <img className="play-button" src="./icons/play.svg" alt="Play"/>
                         <img className="dots" src="./icons/dots.svg" alt="More"/>
                     </div>
-                    <img src={props.image} alt={props.albumName} />
+                    <img src={props.image} alt={props.name} />
                 </div>
-            <a className="album-title" href={props.link} target="_blank" rel="noopener noreferrer">{props.albumName}</a>
+            <a className="album-title" href={props.link} target="_blank" rel="noopener noreferrer">{props.name}</a>
             <div className="artists">
                 <Artist key={props.id} artists={props.artists} />
             </div>

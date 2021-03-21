@@ -43,6 +43,7 @@ h1 {
 
 a:hover {
   color: #fff;
+  cursor: pointer;
 }
 
 h1.albums {
@@ -139,6 +140,7 @@ h1.albums {
 .icons-container .play-button:hover {
   background: rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .icons-container img:hover {
