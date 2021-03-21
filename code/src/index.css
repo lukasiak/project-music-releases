@@ -93,7 +93,7 @@ h1.albums {
 }
 
 .artist:last-child::before {
-  content: ", ";
+  content: " & ";
 }
 
 .artist:only-child::before {
